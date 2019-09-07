@@ -15,6 +15,10 @@ import Button, {
 
 import Checkbox from "./Checkbox";
 import IconToggle from "./IconToggle";
+// @ts-ignore
+import IndeterminateProgress from "./IndeterminateProgress";
+// @ts-ignore
+import Progress from "./Progress";
 import RadioButton from "./RadioButton";
 import RadioButtonGroup from "./RadioButtonGroup";
 // @ts-ignore
@@ -44,7 +48,9 @@ export {
   Spinner,
   Switch,
   Slider,
-  RangeSlider
+  RangeSlider,
+  Progress,
+  IndeterminateProgress
 };
 
 // Types
