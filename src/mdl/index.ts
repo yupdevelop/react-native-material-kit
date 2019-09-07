@@ -10,17 +10,21 @@ import Button, {
   ColoredRaisedButton,
   Fab,
   FlatButton,
-  RaisedButton,
-} from './Button';
+  RaisedButton
+} from "./Button";
 
-import Checkbox from './Checkbox';
-import IconToggle from './IconToggle';
-import RadioButton from './RadioButton';
-import RadioButtonGroup from './RadioButtonGroup';
-import Ripple from './Ripple';
+import Checkbox from "./Checkbox";
+import IconToggle from "./IconToggle";
+import RadioButton from "./RadioButton";
+import RadioButtonGroup from "./RadioButtonGroup";
 // @ts-ignore
-import Spinner from './Spinner';
-import Switch from './Switch';
+import RangeSlider from "./RangeSlider";
+import Ripple from "./Ripple";
+// @ts-ignore
+import Slider from "./Slider";
+// @ts-ignore
+import Spinner from "./Spinner";
+import Switch from "./Switch";
 
 export {
   AccentFab,
@@ -39,14 +43,16 @@ export {
   Ripple,
   Spinner,
   Switch,
+  Slider,
+  RangeSlider
 };
 
 // Types
-export { ButtonProps } from './Button';
-export { CheckboxProps } from './Checkbox';
-export { IconToggleProps } from './IconToggle';
-export { RadioButtonProps } from './RadioButton';
-export { RippleProps } from './Ripple';
-export { SpinnerProps } from './spinner_common';
-export { SwitchProps } from './Switch';
-export * from '../types';
+export { ButtonProps } from "./Button";
+export { CheckboxProps } from "./Checkbox";
+export { IconToggleProps } from "./IconToggle";
+export { RadioButtonProps } from "./RadioButton";
+export { RippleProps } from "./Ripple";
+export { SpinnerProps } from "./spinner_common";
+export { SwitchProps } from "./Switch";
+export * from "../types";
