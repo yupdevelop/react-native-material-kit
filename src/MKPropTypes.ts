@@ -20,10 +20,8 @@ export const font = PropTypes.shape({
   color: PropTypes.string,
   fontFamily: PropTypes.string,
   fontSize: PropTypes.number,
-  // @ts-ignore
-  fontStyle: Text.propTypes.style.fontStyle,
-  // @ts-ignore
-  fontWeight: Text.propTypes.style.fontWeight,
+  fontStyle: PropTypes.string,
+  fontWeight: PropTypes.string,
 });
 
 // <section id="rippleLocation">Ripple hot-spot location</section>
